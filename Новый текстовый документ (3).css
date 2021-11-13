@@ -1,0 +1,284 @@
+body{
+    background-color: darkgray;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Nunito', sans-serif;
+}
+.left{
+    width: 450px;
+    height: 950px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: darkgray;
+}
+.cir{
+    position: fixed;
+    left: -80px;
+    bottom: -80px;
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+.center{
+    left: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block{
+    height: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1020px;
+    position: relative;
+}
+.white{
+    justify-content: center;
+    height: 750px;
+    width: 660px;
+    background-color: white;
+    border-radius: 20px 0 0 20px
+}
+.topw{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bolder;
+    word-spacing: 5px;
+    margin-top: 40px;
+}
+.circle{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ width: 300px;
+ margin-left: 120px;
+ margin-top: 30px;
+}
+.c1{
+width: 45px;
+height: 45px;
+border: 1px solid black;
+background-color: white;
+border-radius: 90px;
+transition: 0.3s;
+cursor: default;
+}
+.c1:hover{
+    background-color: darkblue;
+    color: white
+    
+}
+.f{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 20px;  
+}
+.c2{
+    width: 45px;
+    height: 45px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 90px;
+    transition: 0.3s;
+    cursor: default;
+}
+.c2:hover{
+    background-color:deepskyblue;
+    color: white;
+}
+.t{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 20px;  
+}
+.c3{
+    width: 45px;
+    height: 45px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 90px;
+    transition: 0.3s;
+    cursor: default;
+}
+.c3:hover{
+    background-color: purple;
+    color:white
+}
+.in{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 20px;  
+}
+.small1w{
+    display: flex;
+    justify-content: center;
+    font-weight: normal; 
+    margin-top: 30px;
+}
+.stroke{
+    display: flex;
+    justify-content: center;
+    margin-left: 95px;
+    flex-direction: column;
+    margin-top: 20px;
+}
+input{
+    border: none;
+    background-color:lavender ;
+    width: 350px;
+    height: 40px;
+}
+.em{
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 40px;
+    background-color: thistle;
+    border: none;
+    margin-bottom: 20px;
+}
+.ph{
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 40px;
+    background-color: thistle;
+    border: none;
+    margin-bottom: 20px;
+}
+p{
+    margin-left: 10px;
+}
+.small2w{
+    display: flex;
+    justify-content: center;
+    font-weight: normal; 
+    margin-top: 30px;
+}
+.backw{
+
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+    margin-left: 95px;
+    width: 350px;
+    height: 70px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+.small3w{
+    display: flex;
+    justify-content: center;
+    font-weight: normal; 
+    margin-top: 30px; 
+    border-bottom: 0.5px solid black;
+    width: 200px;
+    margin-left: 165px;
+    border-bottom-style: dashed;
+}
+.bottomw{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 170px;
+    width: 190px;
+    height: 40px;
+    background-color: mediumseagreen;
+    color: white;
+    font-weight: bolder;
+    border: 1px solid black;
+    border-radius: 90px;
+    align-items: center;
+    transition: 0.3s;
+    cursor: default;
+}
+.bottomw:hover{
+    background-color: lightgreen ;
+    color: black;
+}
+.green{
+    align-items: center;
+    justify-content: center;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 560px; 
+    background-color:mediumseagreen;
+    border-radius: 0px 20px 20px 0px;
+    color: white;
+}
+.topg{
+    font-size: 40px;
+    font-weight: bolder;
+    word-spacing: 5px;
+}
+.smallg{
+    display: flex;
+    justify-content: center;
+    font-weight: normal; 
+    margin-top: 30px;
+}
+.bottomg{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 120px;
+    height: 40px;
+    background-color: mediumseagreen;
+    color: white;
+    font-weight: bolder;
+    border: 1px solid white;
+    border-radius: 90px;
+    align-items: center;
+    transition: 0.3s;
+    cursor: default;  
+}
+.bottomg:hover{
+    background-color: lightgreen;
+}
+.arrow1 {
+    margin-left: 5px;
+    height: 10px; width: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.6);
+	border-width: 3px 3px 0 0;
+    transform: rotate(225deg);
+  }
+.right{
+    width: 450px;
+    height: 950px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column;
+    background-color: darkgray;
+
+}
+.triangle{
+    opacity: 0.8;
+    position: fixed;
+    right: -40px;
+    top: -20px;
+    border-top: 100px solid transparent;
+    border-right: 200px solid #e92f67;
+    border-bottom: 100px solid transparent;
+    transform: rotate(340deg);
+}
+
+
+
+
