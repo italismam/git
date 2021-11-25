@@ -1,0 +1,106 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14pt ;
+    background-color:white;
+    color: black;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+.colortext{
+    color: gray;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.mainleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    width: 500px;
+    height: 800px;
+    box-shadow: 0 0 10px 3px rgba(0,0,0,0.5);  
+    border: none; 
+}
+.mainright{
+    border: 1px solid black;
+    width: 1150px;
+    height: 800px;
+    margin-left: 30px;
+    box-shadow: 0px 0 10px 3px rgba(0,0,0,0.5);  
+    border: none; 
+}
+li {
+    list-style-type: none;
+}
+.in{
+    margin-left: 35px;
+}
+.info{
+    width: 450px;
+    margin-left: -30px;
+}
+.skil{
+    margin-left: -30px;
+}
+.lang{
+    margin-left: -30px;
+}
+hr{
+    border: 1px solid black;
+    width: 450px;
+}
+h3{
+    margin-top: -15px;
+}
+p{
+    margin-top: -20px;
+}
+.edu{
+    margin-left: 20px;
+    border-bottom: 2px solid black;
+    width: 1100px;
+}
+.hob{
+    margin-left: 20px;
+    border-bottom: 2px solid black;
+    width: 1100px;
+}
+.soc{
+    margin-left: 20px;
+    border-bottom: 2px solid black;
+    width: 1100px;
+}
+.bottom{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 250px;
+    height: 60px;
+    background-color: lightgreen;
+    margin-left: 450px;
+    cursor: default;
+    transition: 0.5s;
+}
+.bottom:hover{
+    background-color:green;
+}
+.grt{
+    margin-top: 50px;
+    border-top: 2px solid black;
+    width: 1100px;
+    margin-left: 20px;
+}
+.down{
+    margin-top: 80px;
+}
+
+

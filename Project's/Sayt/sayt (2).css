@@ -1,0 +1,356 @@
+body{
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.Begin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 1000px;
+    height: 500px;
+    margin-left: 445px;
+    transition: 0.5s;
+}
+.Begin:hover{
+    background-color:lightgreen;
+    border-radius: 90px;
+}
+.beg{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+.sp{
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: -470px;
+    height: min-content;
+}
+.mr{
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: -450px;
+    height: min-content;
+}
+.Mark{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 1000px;
+    height: 600px;
+    margin-left: 445px;
+    transition: 0.5s;
+}
+.Mark:hover{
+    background-color: lightskyblue;
+    border-radius: 90px;
+}
+.up{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.odin{
+    display: flex;
+    flex-direction: row;
+    margin-left: -30px;
+}
+.dva{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+.one{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 170px;
+    background-color:whitesmoke;
+    box-shadow: 0 0 15px 2px rgba(0,0,0,0.5);
+    transition: 0.5s;
+}
+.one:hover{
+    box-shadow: 0 0 7px 1px rgba(0,0,0,0.5);
+    border-radius: 30px 0px 30px 0px;
+}
+.oneb{
+    background-color:white;
+    height: 40px;
+    width: 100px;
+    margin-top: 30px;
+    transition: 0.5s;
+    border: 1px solid black;
+    border-radius: 90px;
+    color: white;
+}
+.oneb:hover{
+   background-color: black;
+}
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100px;
+    color: black;
+    text-decoration: none;
+}
+p{
+    margin-top: 50px;
+    font-weight: bolder;
+}
+.two{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 170px;
+    background-color:whitesmoke;
+    margin-left: 30px;
+    box-shadow: 0 0 15px 2px rgba(0,0,0,0.5);
+    transition: 0.5s;
+}
+.two:hover{
+    box-shadow: 0 0 7px 1px rgba(0,0,0,0.5);
+    border-radius: 30px  ;
+}
+.twob{
+    background-color:white;
+    height: 40px;
+    width: 100px;
+    margin-top: 30px;
+    transition: 0.5s;
+    border: 1px solid black;
+    border-radius: 90px;
+    color: white;
+}
+.twob:hover{
+   background-color: black;
+}
+.three{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 170px;
+    background-color:whitesmoke;
+    margin-left: 30px;
+    box-shadow: 0 0 15px 2px rgba(0,0,0,0.5);
+    transition: 0.5s;
+}
+.three:hover{
+    box-shadow: 0 0 7px 1px rgba(0,0,0,0.5);
+    border-radius: 0 30px 0 30px;
+}
+.threeb{
+    background-color:white;
+    height: 40px;
+    width: 100px;
+    margin-top: 30px;
+    transition: 0.5s;
+    border: 1px solid black;
+    border-radius: 90px;
+    color: white;
+}
+.threeb:hover{
+   background-color: black;
+}
+.four{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 170px;
+    background-color:whitesmoke;
+    margin-left: 30px;
+    box-shadow: 0 0 15px 2px rgba(0,0,0,0.5);
+    transition: 0.5s;
+}
+.four:hover{
+    box-shadow: 0 0 7px 1px rgba(0,0,0,0.5);
+    border-radius: 30px 0px 0px 0px;
+}
+.fourb{
+    background-color:white;
+    height: 40px;
+    width: 100px;
+    margin-top: 30px;
+    transition: 0.5s;
+    border: 1px solid black;
+    border-radius: 90px;
+    color: white;
+}
+.fourb:hover{
+   background-color: black;
+}
+.five{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 170px;
+    background-color:whitesmoke;
+    margin-left: 30px;
+    box-shadow: 0 0 15px 2px rgba(0,0,0,0.5);
+    transition: 0.5s;
+}
+.five:hover{
+    box-shadow: 0 0 7px 1px rgba(0,0,0,0.5);
+    border-radius: 0px;
+}
+.fiveb{
+    background-color:white;
+    height: 40px;
+    width: 100px;
+    margin-top: 30px;
+    transition: 0.5s;
+    border: 1px solid black;
+    border-radius: 90px;
+    color: white;
+}
+.fiveb:hover{
+   background-color: black;
+}
+.six{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 170px;
+    background-color:whitesmoke;
+    margin-left: 30px;
+    box-shadow: 0 0 15px 2px rgba(0,0,0,0.5);
+    transition: 0.5s;
+}
+.six:hover{
+    box-shadow: 0 0 7px 1px rgba(0,0,0,0.5);
+    border-radius: 0 30px 0 0px;
+}
+.sixb{
+    background-color:white;
+    height: 40px;
+    width: 100px;
+    margin-top: 30px;
+    transition: 0.5s;
+    border: 1px solid black;
+    border-radius: 90px;
+    color: white;
+}
+.sixb:hover{
+   background-color: black;
+}
+.seven{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 170px;
+    background-color:whitesmoke;
+    box-shadow: 0 0 15px 2px rgba(0,0,0,0.5);
+    transition: 0.5s;
+}
+.seven:hover{
+    box-shadow: 0 0 7px 1px rgba(0,0,0,0.5);
+    border-radius: 0 0 0 30px;
+}
+.sevenb{
+    background-color:white;
+    height: 40px;
+    width: 100px;
+    margin-top: 30px;
+    transition: 0.5s;
+    border: 1px solid black;
+    border-radius: 90px;
+    color: white;
+}
+.sevenb:hover{
+   background-color: black;
+}
+
+.eight{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 170px;
+    background-color:whitesmoke;
+    margin-left: 30px;
+    box-shadow: 0 0 15px 2px rgba(0,0,0,0.5);
+    transition: 0.5s;
+}
+.eight:hover{
+    box-shadow: 0 0 7px 1px rgba(0,0,0,0.5);
+    border-radius: 0px;
+}
+.eightb{
+    background-color:white;
+    height: 40px;
+    width: 100px;
+    margin-top: 30px;
+    transition: 0.5s;
+    border: 1px solid black;
+    border-radius: 90px;
+    color: white;
+}
+.eightb:hover{
+   background-color: black;
+}
+
+.nine{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 170px;
+    background-color:whitesmoke;
+    margin-left: 30px;
+    box-shadow: 0 0 15px 2px rgba(0,0,0,0.5);
+    transition: 0.5s;
+}
+.nine:hover{
+    box-shadow: 0 0 7px 1px rgba(0,0,0,0.5);
+    border-radius:  0  0 30px 0px;
+}
+.nineb{
+    background-color:white;
+    height: 40px;
+    width: 100px;
+    margin-top: 30px;
+    transition: 0.5s;
+    border: 1px solid black;
+    border-radius: 90px;
+    color: white;
+}
+.nineb:hover{
+   background-color: black;
+}
+.teleg{
+        width: 100px;
+        height: 100px;
+        color: lightskyblue;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 50px;
+        right: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s ease;
+}
+.teleg:hover{
+   transform: scale(1.2);
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Animation.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+        </style>
+</head>
+<body>
+    <h1>Lesson 8. Images. Font Awesome. Basic animation</h1>
+    <div class="top">
+        <h3>Font Awesome + transition</h3>
+        <div class="table1">
+        <div class="icon1">
+                <img src="https://autogear.ru/misc/i/gallery/43067/1359989.jpg" width="20" height="20" hspace="10" class="leftimg">
+                    <div>Marvel</div>
+        </div>
+        <div class="icon2">
+                <img src="https://i.gifer.com/origin/ae/ae84325701f6d97ac4ad7e7951ac9063_w200.gif" width="20" height="20" hspace="10" class="leftimg2">
+                    <div>DC</div>
+        </div>
+        <div class="icon3">
+                <img src="https://cdn-icons-png.flaticon.com/512/54/54731.png" width="20" height="20" hspace="10" class="leftimg3">
+                <div>Starwars</div>
+        </div>
+    </div>
+    <p>Наведись на синий блок и узри магию <span class="sel">transition</span></p>
+   <div class="trans">
+       <h3>Transform</h3>
+       <div class="table2">
+           <div class="sqr1">
+               <img src="https://kaplya-ua.com/wp-content/themes/Kaplya/images/grey.png" width="100" height="100" class="pic" >
+           </div>
+           <div class="sqr2">
+                <img src="https://kaplya-ua.com/wp-content/themes/Kaplya/images/grey.png" width="100" height="100" class="pic">
+           </div>
+           <div class="sqr3">
+                <img src="https://kaplya-ua.com/wp-content/themes/Kaplya/images/grey.png" width="100" height="100" class="pic">
+           </div>
+       </div>
+   </div>
+   <p><span class="sel"> Transform & keyframes</span> в действии</p>
+   <div class="back">
+       <h3>CSS Background</h3>
+       <div class="ground"></div>
+       <p>Вставляем картинку через <span class="sel">CSS</span> свойство <span class="sel">background</span></p>
+   </div>
+   <div class="images">
+       <h3>Images ( HTML Picture )</h3>
+       <picture>
+        <source srcset="https://cdn.27.ua/sc--media--prod/default/fd/d6/60/fdd6609e-8c14-41d4-be04-f6e295d67ba5.jpg" media="(min-width: 600px)">
+        <img src="https://cdn.27.ua/sc--media--prod/default/fd/d6/60/fdd6609e-8c14-41d4-be04-f6e295d67ba5.jpg">
+       </picture>
+       <p>Использование тега<span class="sel"> picture </span>для отображения нужной картинки на нужном разрешении.<br> Открой эту страничку на<span class="sel"> разных девайсах </span>и посмотри на результат</p>
+   </div>
+   <h3>Universes ( HTML object-fit )</h3>
+   <div class="obj">
+       <div class="imj">
+           <img src="https://content.rozetka.com.ua/goods/images/big/18398864.jpg" class="fill narrow1" >
+           <img src="https://images.ua.prom.st/1650098676_w640_h640_poster--plakat.jpg" class="fill narrow2">
+           <img src="https://www.komar.de/ru/media/catalog/product/cache/7/image/9df78eab33525d08d6e5fb8d27136e95/0/2/026-dvd4_star_wars_poster_classic_1_web.jpg" class="fill narrow3">
+       </div>
+   </div>
+   <div class="row">
+       <h3>Universes in a row</h3>
+       <div class="post">
+        <img src="https://images.ua.prom.st/1650055083_w640_h640_poster--plakat.jpg" class="fill narrow4">
+        <div class="m"><span class="sel">Marvel</span><p>Marvel was started in 1939 by Martin Goodman under a number of corporations and imprints but now known as Timely Comics,[3] and by 1951 had generally become known as Atlas Comics. The Marvel era began in 1961, the year that the company launched The Fantastic Four and other superhero titles created by Stan Lee, Jack Kirby, Steve Ditko and many others. The Marvel brand, which had been used over the years, was solidified as the company's primary brand.</p></div>
+        </div>
+       <div class="post2">
+        <img src="https://cdn1.ozone.ru/s3/multimedia-y/c1200/6025596322.jpg" class="fill narrow4">
+        <div class="m"><span class="sel">DC</span><p>DC Comics is one of the largest and oldest American comic book companies, with their first comic under the DC banner being published in 1937.[6] The majority of its publications take place within the fictional DC Universe and feature numerous culturally iconic heroic characters, such as Superman, Batman, and Wonder Woman.</p></div>    
+        </div>
+       <div class="post3">
+        <img src="https://townsquare.media/site/442/files/2015/10/star-wars-posters-pic1.jpg?w=1200&h=0&zc=1&s=0&a=t&q=89"  class="fill narrow4">
+        <div class="m"><span class="sel">Star Wars</span><p>Star Wars is an American epic space opera[1] multimedia franchise created by George Lucas, which began with the eponymous 1977 film[b] and quickly became a worldwide pop-culture phenomenon. The franchise has been expanded into various films and other media, including television series, video games, novels, comic books, theme park attractions, and themed areas, comprising an all-encompassing fictional universe.[c] In 2020, its total value was estimated at US$70 billion, and it is currently the fifth-highest-grossing media franchise of all time.</p></div>
+        </div>
+   </div>
+   </div>
+</body>
+</html>

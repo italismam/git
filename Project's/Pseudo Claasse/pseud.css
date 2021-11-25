@@ -1,0 +1,108 @@
+body{
+    background-color: darkgray;
+}
+.tin{
+    margin-left: 80px;
+    margin-top: 80px;
+   display: flex;
+   flex-direction: column;
+   height: 130px;
+   justify-content: space-around;
+}
+p{
+    color: black;
+    margin-top: 1%;
+}
+.link{
+    font-weight:bold ;   
+}
+#visited:visited {
+    color: red; 
+   }
+#visited:link {
+    color: green; 
+   }
+#link:visited {
+    color: red; 
+   }
+#link:link {
+    color: green; 
+   }
+.user{
+    font-weight:bold ;   
+}
+.tun{
+margin-left: 80px;
+margin-top: 80px;
+display: flex;
+flex-direction: column;
+height: 130px;
+justify-content: space-around;
+}
+.hover:hover{
+    color: red;
+}
+.active:active{
+    color: blue;
+}
+.green-input{
+    width: 200px;
+    background-color: darkgray;
+    border: none;;
+}
+.green-input:focus {
+    color: green;
+}
+.state{
+    font-weight:bold ;   
+    margin-left: 80px;
+    margin-top: 80px;
+}
+.one{
+    display: flex;
+    flex-direction: row; 
+}
+.in{
+    margin-left: 20px;
+}
+.two{
+    display: flex;
+    flex-direction: row; 
+}
+.put{
+    margin-left: 20px;
+}
+.firefly{
+    display: flex;
+    flex-direction: row; 
+}
+.three{
+    margin-left: 80px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 830px;
+    justify-content: space-around;  
+}
+.struck{
+    font-weight:bold ;   
+    margin-left: 80px;
+    margin-top: 80px;
+}
+.firs{
+    display: flex;
+    flex-direction: row; 
+    margin-left: 80px;
+    margin-top: 20px;
+    width: 250px;
+    justify-content: space-around;
+}
+li:first-child {
+    font-weight: bold;
+}
+li:last-child {
+    color: blue
+}
+a:only-child{
+    text-transform: uppercase;
+}
