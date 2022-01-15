@@ -1,0 +1,31 @@
+.top{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    border-bottom: 2px solid black;
+    justify-content: space-around;
+    margin-left: 450px;
+}
+.den{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    margin-left: 450px;
+    margin-top: 25px;
+}
+.den1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder ;
+    margin-left: 880px;
+    width: 150px;
+    margin-top: -67px;
+}
+.den2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    width: min-content;
+    margin-top: 100px;
+    transform: rotate(-90deg);
+    margin-left: 1400px;
+}
